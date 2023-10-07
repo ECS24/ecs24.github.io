@@ -3,12 +3,23 @@
 body {
 	font: 12pt "Raleway" 200;
 	margin: 0;
-	background-color:  darkgray;
+	background-color: #14151a;
 	color: antiquewhite;
 }
 
 nav {
-	background-color: darkblue;
+	background-color: rgb(26, 26, 91);
+	padding: 1em;
+}
+
+a, a:visited {
+	color: yellow;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: yellowgreen;
+	text-decoration: underline;
 }
 
 header {
